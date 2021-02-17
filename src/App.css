@@ -3,6 +3,11 @@
     justify-content: center;
 }
 
+.heading {
+    justify-content: center;
+    align-content: center;
+}
+
 .color-palette {
     display: flex;
     justify-content: center;

@@ -15,10 +15,14 @@ const App = () => {
 
   return (
     <div className="App">
+        <div className="heading">
+            <h1>Color in the place below, where you like to pray to Jesus.</h1>
+          <ColorPalette currentColor={currentColor} changeColor={setCurrentColor}/>
+        </div>
       <div className= "flower">
         <Flower fillColors={fillColors} onFill={onFillColor} />
       </div>
-      <ColorPalette currentColor={currentColor} changeColor={setCurrentColor}/>
+
     </div>
   )
 }
